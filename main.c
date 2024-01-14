@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 int main() {
-  int number = 42;  // 表示する数値
+  int i;  // カウンタ変数
 
-  printf("Number: %d\n", number);
+  // 1から10までの数値を表示するループ
+  for (i = 1; i <= 10; i++) {
+    printf("%d\n", i);
+  }
 
   return 0;
 }
